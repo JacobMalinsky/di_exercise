@@ -1,18 +1,18 @@
 .Contact{
 	text-align: center;
-	color: gold;
+	color: black;
 	
 
 }
 
 .Education , .Experience, .Skillset{
 	text-align: left;
-	color: gold;
+	color: black;
 	border-style: dotted;
 }
 
 
 body{
-	background-color: darkgrey;
+	background-color: white;
 	
 }
