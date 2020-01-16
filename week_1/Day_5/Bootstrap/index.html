@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap practice</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+	<!-- navbar-->
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="http://www.stackoverflow.com/">Jacob's Website 😇</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="#">Features</a>
+				<a class="nav-item nav-link" href="#">
+					Pricing 
+					<!-- added badge-->
+					<span class="badge badge-light">4</span>
+				</a>
+
+
+				<!-- added dropdown-->
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Dropdown link
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li>
+			</div>
+		</div>
+		<!-- added searchbar-->
+		<form class="form-inline">
+			<input class="form-control mr-sm-2" type="email" placeholder="Very nice 😍" aria-label="Search">
+			<!-- added extra inpute box-->
+			<input class="form-control mr-sm-2" type="password" placeholder="Very secret 😷" aria-label="Search">
+			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">wow🥴</button>
+		</form>
+	</nav>
+
+	<!-- jumbotron-->
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h1 class="display-4">Welcome to my first site!</h1>
+			<p class="lead">Copying and pasting code is fun!</p>
+			<!-- added button to jumbotron -->
+			<button type="button" class="btn btn-primary">Extra Nice 🤡</button>
+		</div>
+	</div>
+
+	<!-- alert -->
+	<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  		<strong>Holy guacamole!</strong> You should grab some tegridy.
+  		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    	<span aria-hidden="true">&times;</span>
+  		</button>
+	</div>
+	
+	<!-- cards-->
+	<div class="container">
+
+		<div class="row">
+			<!-- card 1-->
+			<div class="card col-sm-12 col-md-4 col-lg-4" style="width: 18rem;">
+				<img src="pics/stan.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<!-- added button inside card -->
+					<button type="button" class="btn btn-primary btn-md"> wow such nice 🎃</button>
+				</div>
+			</div>
+			<!-- card 2-->
+			<div class="card col-sm-12 col-md-4 col-lg-4" style="width: 18rem;">
+				<img src="pics/homer.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<!-- added button inside card -->
+					<button type="button" class="btn btn-primary btn-md"> wow such nice 🎃</button>					
+				</div>
+			</div>
+			<!-- card 3-->
+			<div class="card col-sm-12 col-md-4 col-lg-4" style="width: 18rem;">
+				<img src="pics/peter.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<!-- added button inside card -->
+					<button type="button" class="btn btn-primary btn-md"> wow such nice 🎃</button>					
+				</div>
+			</div>
+		</div>
+	</div>
+
+</nav>	
+</div>
+</body>
+</html>
