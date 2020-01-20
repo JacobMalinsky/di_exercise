@@ -1,0 +1,33 @@
+.container{
+	justify-content: center;
+    grid-template-areas:
+    display: flex;
+}
+
+#item1{
+	
+	grid-area: menu;
+	background-color: blue; 
+	height: 100px;
+	flex: 1;
+
+
+}
+
+#item2{
+	background-color: orange;
+	height: 100px;
+	flex: 1;
+}
+
+#item3{
+	background-color: purple;
+	height: 100px
+	flex: 1;;
+}
+
+#item4{
+	background-color: red;
+	height: 100px;
+	flex: 1;
+}
